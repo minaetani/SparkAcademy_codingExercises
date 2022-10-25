@@ -9,5 +9,17 @@ const spitText = () => {
     textOne;
     textTwo;
 }
-
 spitText();
+
+const bingo = (num) => {
+ if (num > 5) {
+  console.log('Bingo!')
+  return 'Bingo!';
+ } else {
+  console.log('Do it again!')
+  return 'Do it again!';
+ }
+}
+
+bingo(4);
+bingo(6);
