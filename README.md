@@ -1,1 +1,1 @@
-# SparkAcademy_codingExercises
+# spark_academy_coding_exercises
