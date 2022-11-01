@@ -1,25 +1,19 @@
 'use Strict';
 
 const spitText = () => {
-   const textOne = 'First Sentence'; 
-   const textTwo = 'Second Sentence' ;
-   console.log(textOne);  
-   console.log(textTwo);
   return 
-    textOne;
-    textTwo;
-}
-spitText();
+ 'An expression';
+};
 
-const bingo = (num) => {
+console.log(spitText());
+
+const callBingo = (num) => {
  if (num > 5) {
-  console.log('Bingo!')
   return 'Bingo!';
  } else {
-  console.log('Do it again!')
   return 'Do it again!';
  }
-}
+};
 
-bingo(4);
-bingo(6);
+console.log(callBingo(4));
+console.log(callBingo(6));
