@@ -3,6 +3,7 @@
 const spitText = () => {
   return 
  'An expression';
+ //returns undefined
 };
 
 console.log(spitText());
